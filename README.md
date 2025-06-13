@@ -79,20 +79,6 @@ pip install networkx matplotlib
 4. **Dual Graph Coloring**: A dual graph is built where each face is a node, and edges indicate shared boundaries. A greedy coloring assigns each region one of four colors.
 5. **Rendering**: Regions are filled with leaf colors using Matplotlib. Shortest-paths between specified nodes can be overlaid, based on geometric distance or random weights.
 
-### File Structure
-
-```
-├── main.py           # Entry point for generating covers
-├── create_graph.py   # Functions for graph construction and coloring
-├── utils.py          # Helper functions (area calculation, plotting)
-├── mosaic_contraportada.pdf  # Generated back cover
-├── mosaic_portada.pdf        # Generated front cover
-└── README.md         # Project documentation
-```
-
-### License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
